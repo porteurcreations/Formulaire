@@ -726,28 +726,34 @@
         <div class="sep"><div class="sep-dot"></div></div>
         <div class="section-header">
           <span class="section-num">09</span>
-          <h2 class="section-titre">Gravure laser</h2>
+          <h2 class="section-titre">Compatibilité du logo</h2>
         </div>
 
         <div class="champ">
-          <label class="champ-label">Le logo devra-t-il être adapté à la gravure laser ? <span class="requis">*</span></label>
+          <label class="champ-label">Le logo doit-il fonctionner sur :</label>
           <div class="options-grille colonnes-2">
-            <div class="option-item"><input type="radio" name="gravure_laser" id="gl1" value="Oui" required><label for="gl1">Oui</label></div>
-            <div class="option-item"><input type="radio" name="gravure_laser" id="gl2" value="Non"><label for="gl2">Non</label></div>
-            <div class="option-item"><input type="radio" name="gravure_laser" id="gl3" value="Je ne sais pas"><label for="gl3">Je ne sais pas</label></div>
+            <div class="option-item"><input type="checkbox" name="compatibilite[]" id="cp1" value="Fond noir"><label for="cp1">Fond noir</label></div>
+            <div class="option-item"><input type="checkbox" name="compatibilite[]" id="cp2" value="Fond blanc"><label for="cp2">Fond blanc</label></div>
+            <div class="option-item"><input type="checkbox" name="compatibilite[]" id="cp3" value="Véhicule"><label for="cp3">Véhicule</label></div>
+            <div class="option-item"><input type="checkbox" name="compatibilite[]" id="cp4" value="Vêtement"><label for="cp4">Vêtement</label></div>
+            <div class="option-item"><input type="checkbox" name="compatibilite[]" id="cp5" value="En monochrome"><label for="cp5">En monochrome</label></div>
           </div>
         </div>
 
         <div class="champ">
-          <label class="champ-label">Supports envisagés</label>
+          <label class="champ-label">Sur quels matériaux le logo pourrait-il apparaître ?</label>
+          <p class="champ-aide">Sélectionnez tous les supports envisagés, même à titre indicatif.</p>
           <div class="options-grille colonnes-2">
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp1" value="Bois"><label for="sp1">Bois</label></div>
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp2" value="Métal"><label for="sp2">Métal</label></div>
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp3" value="Cuir"><label for="sp3">Cuir</label></div>
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp4" value="Verre"><label for="sp4">Verre</label></div>
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp5" value="Ardoise"><label for="sp5">Ardoise</label></div>
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp6" value="Plastique"><label for="sp6">Plastique</label></div>
-            <div class="option-item"><input type="checkbox" name="supports[]" id="sp7" value="Plusieurs supports"><label for="sp7">Plusieurs supports</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat1" value="Bois"><label for="mat1">Bois</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat2" value="Métal"><label for="mat2">Métal</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat3" value="Cuir"><label for="mat3">Cuir</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat4" value="Verre"><label for="mat4">Verre</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat5" value="Ardoise"><label for="mat5">Ardoise</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat6" value="Plastique"><label for="mat6">Plastique</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat7" value="Textile"><label for="mat7">Textile</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat8" value="Papier / Carton"><label for="mat8">Papier / Carton</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat9" value="Pierre / Béton"><label for="mat9">Pierre / Béton</label></div>
+            <div class="option-item"><input type="checkbox" name="materiaux[]" id="mat10" value="Céramique"><label for="mat10">Céramique</label></div>
           </div>
         </div>
       </div>
